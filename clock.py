@@ -12,6 +12,5 @@ def main():
 		sleep(1)
 		printTime()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
 	main()
-    
