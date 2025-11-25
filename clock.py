@@ -9,7 +9,7 @@ def printTimeTo2022( offset ):
 	now = datetime.now()
 	amountOfSecondsLeftStringifiedWithDecimal = str(round(offset + (midnight - now).total_seconds(), 0))
 	amountOfSecondsLeftStringifiedWithoutDecimal = amountOfSecondsLeftStringifiedWithDecimal[:-2]
-	print (amountOfSecondsLeftStringifiedWithoutDecimal + " seconden")
+	print (amountOfSecondsLeftStringifiedWithoutDecimal + " seconds")
  
 def printTimeTo2023():
     
