@@ -14,10 +14,17 @@ def printTimeTo2023():
     
     printTimeTo2022( amountOfSecondsIn2022 )
 
+def printTimeTo2026():
+    amountOfSecondsIn2022 = 365 * 24 * 60 * 60 
+    amountOfSecondsIn2023and2024and2025 = (365 + 366 + 365) * 24 * 60 * 60
+    amountOfSecondsBetweenStartOf2022AndEndOf2025 = amountOfSecondsIn2022 + amountOfSecondsIn2023and2024and2025	
+    
+    printTimeTo2022( amountOfSecondsBetweenStartOf2022AndEndOf2025 )
+
 def main():
 	while (True):
 		sleep(1)
-		printTimeTo2023()
+		printTimeTo2026()
 
 if __name__ == "__main__":
 	main()
